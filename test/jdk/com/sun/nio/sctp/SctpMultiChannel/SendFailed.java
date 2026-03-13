@@ -23,7 +23,7 @@
 
 /* @test
  * @bug 8067846
- * @requires (os.family == "linux" | os.family == "aix")
+ * @requires (os.family == "linux")
  * @library /test/lib
  * @summary Test for send failed notification
  */

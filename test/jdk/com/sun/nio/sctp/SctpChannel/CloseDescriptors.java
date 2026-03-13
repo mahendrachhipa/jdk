@@ -26,7 +26,7 @@
  * @bug 8238274
  * @key intermittent
  * @summary Potential leak file descriptor for SCTP
- * @requires (os.family == "linux" | os.family == "aix")
+ * @requires (os.family == "linux")
  * @library /test/lib
  * @build jtreg.SkippedException
  * @run main/othervm/timeout=250 CloseDescriptors

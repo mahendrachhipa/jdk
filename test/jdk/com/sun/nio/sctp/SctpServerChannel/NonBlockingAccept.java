@@ -23,7 +23,7 @@
 
 /* @test
  * @bug 4927640
- * @requires (os.family == "linux" | os.family == "aix")
+ * @requires (os.family == "linux")
  * @library /test/lib
  * @summary Tests the SCTP protocol implementation
  * @author chegar

@@ -25,7 +25,7 @@
  * @bug 8269481
  * @library /test/lib
  * @summary Tests that file descriptors are closed
- * @requires (os.family == "linux" | os.family == "aix")
+ * @requires (os.family == "linux")
  * @run main/othervm CloseDescriptors
  */
 

@@ -23,7 +23,7 @@
 
 /* @test
  * @bug 8034181
- * @requires (os.family == "linux" | os.family == "aix")
+ * @requires (os.family == "linux")
  * @library /test/lib
  * @summary SIGBUS in SctpChannelImpl receive
  * @author chegar

@@ -23,7 +23,7 @@
 
 /* @test
  * @bug 6863110
- * @requires (os.family == "linux" | os.family == "aix")
+ * @requires (os.family == "linux")
  * @library /test/lib
  * @summary Newly connected/accepted SctpChannel should fire OP_READ if registered with a Selector
  * @author chegar
